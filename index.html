@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Derek Dhammaloka">
-    <meta name="description" content="Counts the number of unique consonants in a string.  Disregards duplicate consonants of differing cases.  For example, Dad should have 1 unique consonant.">
+    <meta name="description"
+        content="Counts the number of unique consonants in a string.  Disregards duplicate consonants of differing cases.  For example, Dad should have 1 unique consonant.">
     <meta name="keywords" content="consonant, unique, consonants, string">
     <title>Unique Consonant Counts</title>
     <link rel="icon" href="favicon.ico">
     <!-- Load Styles -->
-     <link rel="stylesheet" href="libs/bootstrap/bootstrap.min.css">
-     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="libs/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <!-- Set Up Header -->
     <header class="container-fluid text-center">
@@ -19,15 +22,25 @@
     </header>
 
     <!-- Set Up Form -->
-     <section class="container-fluid">
+    <section class="container-fluid">
+        <form>
+            <div class="form-floating mb-3">
+                <input type="text" id="mytext" class="form-control" title="Enter text" placeholder="Enter text">
+                <label for="mytext">Text</label>
+            </div>
 
-     </section>
+            <div class="d-grid gap-2 d-flex justify-content-center">
+                <button type="reset" id="clearBtn" class="btn btn-warning">Clear</button>
+            </div>
+        </form>
+    </section>
 
-     <!-- Display Results -->
-      <div id="results" class="container-fluid"></div>
+    <!-- Display Results -->
+    <div id="results" class="container-fluid"></div>
 
-      <!-- Load Scripts -->
-       <script src="libs/jquery/jquery-3.7.1.min.js"></script>
-       <script src="js/script.js"></script>
+    <!-- Load Scripts -->
+    <script src="libs/jquery/jquery-3.7.1.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
+
 </html>
